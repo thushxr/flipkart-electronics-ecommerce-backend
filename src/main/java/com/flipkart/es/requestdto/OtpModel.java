@@ -5,8 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserRequest {
+public class OtpModel {
+
     private String userEmail;
-    private String userPassword;
-    private String userRole;
+    private String userOTP;
+    
 }
